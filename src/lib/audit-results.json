@@ -1,0 +1,1989 @@
+[
+  {
+    "project": "angular",
+    "terraform": {
+      "files": 0,
+      "co2e": 0,
+      "resources": 0,
+      "details": []
+    },
+    "dependencies": {
+      "files": 67,
+      "co2e": 88.79999999999997,
+      "count": 888,
+      "details": [
+        {
+          "file": "package.json",
+          "dependencies": 104,
+          "devDependencies": 42,
+          "count": 146,
+          "co2e": 14.600000000000001
+        },
+        {
+          "file": "vscode-ng-language-service/package.json",
+          "dependencies": 2,
+          "devDependencies": 18,
+          "count": 20,
+          "co2e": 2
+        },
+        {
+          "file": "modules/package.json",
+          "dependencies": 26,
+          "devDependencies": 0,
+          "count": 26,
+          "co2e": 2.6
+        },
+        {
+          "file": "dev-app/package.json",
+          "dependencies": 10,
+          "devDependencies": 6,
+          "count": 16,
+          "co2e": 1.6
+        },
+        {
+          "file": "integration/package.json",
+          "dependencies": 14,
+          "devDependencies": 0,
+          "count": 14,
+          "co2e": 1.4000000000000001
+        },
+        {
+          "file": "adev/package.json",
+          "dependencies": 76,
+          "devDependencies": 4,
+          "count": 80,
+          "co2e": 8
+        },
+        {
+          "file": "vscode-ng-language-service/server/package.json",
+          "dependencies": 2,
+          "devDependencies": 6,
+          "count": 8,
+          "co2e": 0.8
+        },
+        {
+          "file": "modules/ssr-benchmarks/package.json",
+          "dependencies": 13,
+          "devDependencies": 0,
+          "count": 13,
+          "co2e": 1.3
+        },
+        {
+          "file": "integration/typings_test_ts59/package.json",
+          "dependencies": 18,
+          "devDependencies": 0,
+          "count": 18,
+          "co2e": 1.8
+        },
+        {
+          "file": "integration/typings_test_rxjs7/package.json",
+          "dependencies": 18,
+          "devDependencies": 0,
+          "count": 18,
+          "co2e": 1.8
+        },
+        {
+          "file": "integration/trusted-types/package.json",
+          "dependencies": 11,
+          "devDependencies": 16,
+          "count": 27,
+          "co2e": 2.7
+        },
+        {
+          "file": "integration/terser/package.json",
+          "dependencies": 7,
+          "devDependencies": 0,
+          "count": 7,
+          "co2e": 0.7000000000000001
+        },
+        {
+          "file": "integration/standalone-bootstrap/package.json",
+          "dependencies": 9,
+          "devDependencies": 7,
+          "count": 16,
+          "co2e": 1.6
+        },
+        {
+          "file": "integration/service-worker-schema/package.json",
+          "dependencies": 5,
+          "devDependencies": 0,
+          "count": 5,
+          "co2e": 0.5
+        },
+        {
+          "file": "integration/side-effects/package.json",
+          "dependencies": 8,
+          "devDependencies": 0,
+          "count": 8,
+          "co2e": 0.8
+        },
+        {
+          "file": "integration/platform-server-zoneless/package.json",
+          "dependencies": 12,
+          "devDependencies": 15,
+          "count": 27,
+          "co2e": 2.7
+        },
+        {
+          "file": "integration/platform-server/package.json",
+          "dependencies": 13,
+          "devDependencies": 15,
+          "count": 28,
+          "co2e": 2.8000000000000003
+        },
+        {
+          "file": "integration/platform-server-hydration/package.json",
+          "dependencies": 11,
+          "devDependencies": 13,
+          "count": 24,
+          "co2e": 2.4000000000000004
+        },
+        {
+          "file": "integration/nodenext_resolution/package.json",
+          "dependencies": 18,
+          "devDependencies": 0,
+          "count": 18,
+          "co2e": 1.8
+        },
+        {
+          "file": "integration/no_ts_linker/package.json",
+          "dependencies": 4,
+          "devDependencies": 0,
+          "count": 4,
+          "co2e": 0.4
+        },
+        {
+          "file": "integration/ng_update/package.json",
+          "dependencies": 13,
+          "devDependencies": 0,
+          "count": 13,
+          "co2e": 1.3
+        },
+        {
+          "file": "integration/ng_elements/package.json",
+          "dependencies": 10,
+          "devDependencies": 9,
+          "count": 19,
+          "co2e": 1.9000000000000001
+        },
+        {
+          "file": "integration/ng-add-localize/package.json",
+          "dependencies": 9,
+          "devDependencies": 5,
+          "count": 14,
+          "co2e": 1.4000000000000001
+        },
+        {
+          "file": "integration/legacy-animations-async/package.json",
+          "dependencies": 9,
+          "devDependencies": 6,
+          "count": 15,
+          "co2e": 1.5
+        },
+        {
+          "file": "integration/legacy-animations/package.json",
+          "dependencies": 9,
+          "devDependencies": 15,
+          "count": 24,
+          "co2e": 2.4000000000000004
+        },
+        {
+          "file": "integration/defer/package.json",
+          "dependencies": 9,
+          "devDependencies": 6,
+          "count": 15,
+          "co2e": 1.5
+        },
+        {
+          "file": "integration/cli-signal-inputs/package.json",
+          "dependencies": 10,
+          "devDependencies": 16,
+          "count": 26,
+          "co2e": 2.6
+        },
+        {
+          "file": "integration/cli-hello-world-lazy/package.json",
+          "dependencies": 9,
+          "devDependencies": 7,
+          "count": 16,
+          "co2e": 1.6
+        },
+        {
+          "file": "integration/cli-hello-world-ivy-i18n/package.json",
+          "dependencies": 10,
+          "devDependencies": 14,
+          "count": 24,
+          "co2e": 2.4000000000000004
+        },
+        {
+          "file": "integration/cli-hello-world/package.json",
+          "dependencies": 10,
+          "devDependencies": 7,
+          "count": 17,
+          "co2e": 1.7000000000000002
+        },
+        {
+          "file": "packages/upgrade/package.json",
+          "dependencies": 1,
+          "devDependencies": 0,
+          "count": 1,
+          "co2e": 0.1
+        },
+        {
+          "file": "packages/service-worker/package.json",
+          "dependencies": 1,
+          "devDependencies": 0,
+          "count": 1,
+          "co2e": 0.1
+        },
+        {
+          "file": "packages/router/package.json",
+          "dependencies": 1,
+          "devDependencies": 1,
+          "count": 2,
+          "co2e": 0.2
+        },
+        {
+          "file": "packages/platform-server/package.json",
+          "dependencies": 2,
+          "devDependencies": 0,
+          "count": 2,
+          "co2e": 0.2
+        },
+        {
+          "file": "packages/platform-browser-dynamic/package.json",
+          "dependencies": 1,
+          "devDependencies": 0,
+          "count": 1,
+          "co2e": 0.1
+        },
+        {
+          "file": "packages/zone.js/package.json",
+          "dependencies": 0,
+          "devDependencies": 22,
+          "count": 22,
+          "co2e": 2.2
+        },
+        {
+          "file": "packages/platform-browser/package.json",
+          "dependencies": 1,
+          "devDependencies": 0,
+          "count": 1,
+          "co2e": 0.1
+        },
+        {
+          "file": "packages/localize/package.json",
+          "dependencies": 4,
+          "devDependencies": 0,
+          "count": 4,
+          "co2e": 0.4
+        },
+        {
+          "file": "packages/forms/package.json",
+          "dependencies": 2,
+          "devDependencies": 0,
+          "count": 2,
+          "co2e": 0.2
+        },
+        {
+          "file": "packages/elements/package.json",
+          "dependencies": 1,
+          "devDependencies": 0,
+          "count": 1,
+          "co2e": 0.1
+        },
+        {
+          "file": "packages/core/package.json",
+          "dependencies": 1,
+          "devDependencies": 0,
+          "count": 1,
+          "co2e": 0.1
+        },
+        {
+          "file": "packages/compiler-cli/package.json",
+          "dependencies": 8,
+          "devDependencies": 1,
+          "count": 9,
+          "co2e": 0.9
+        },
+        {
+          "file": "packages/compiler/package.json",
+          "dependencies": 1,
+          "devDependencies": 0,
+          "count": 1,
+          "co2e": 0.1
+        },
+        {
+          "file": "packages/common/package.json",
+          "dependencies": 1,
+          "devDependencies": 0,
+          "count": 1,
+          "co2e": 0.1
+        },
+        {
+          "file": "packages/benchpress/package.json",
+          "dependencies": 2,
+          "devDependencies": 0,
+          "count": 2,
+          "co2e": 0.2
+        },
+        {
+          "file": "packages/animations/package.json",
+          "dependencies": 1,
+          "devDependencies": 0,
+          "count": 1,
+          "co2e": 0.1
+        },
+        {
+          "file": "adev/shared-docs/package.json",
+          "dependencies": 9,
+          "devDependencies": 0,
+          "count": 9,
+          "co2e": 0.9
+        },
+        {
+          "file": "vscode-ng-language-service/integration/project/package.json",
+          "dependencies": 5,
+          "devDependencies": 2,
+          "count": 7,
+          "co2e": 0.7000000000000001
+        },
+        {
+          "file": "tools/bazel/rules_angular_store/package.json",
+          "dependencies": 1,
+          "devDependencies": 0,
+          "count": 1,
+          "co2e": 0.1
+        },
+        {
+          "file": "packages/misc/angular-in-memory-web-api/package.json",
+          "dependencies": 1,
+          "devDependencies": 0,
+          "count": 1,
+          "co2e": 0.1
+        },
+        {
+          "file": "packages/zone.js/test/typings/package.json",
+          "dependencies": 2,
+          "devDependencies": 1,
+          "count": 3,
+          "co2e": 0.30000000000000004
+        },
+        {
+          "file": "packages/core/test/bundling/package.json",
+          "dependencies": 9,
+          "devDependencies": 0,
+          "count": 9,
+          "co2e": 0.9
+        },
+        {
+          "file": "adev/shared-docs/pipeline/api-gen/package.json",
+          "dependencies": 2,
+          "devDependencies": 0,
+          "count": 2,
+          "co2e": 0.2
+        },
+        {
+          "file": "vscode-ng-language-service/integration/project/libs/post/package.json",
+          "dependencies": 1,
+          "devDependencies": 0,
+          "count": 1,
+          "co2e": 0.1
+        },
+        {
+          "file": "packages/compiler-cli/linker/babel/test/package.json",
+          "dependencies": 2,
+          "devDependencies": 0,
+          "count": 2,
+          "co2e": 0.2
+        },
+        {
+          "file": "adev/src/content/tutorials/homepage/package.json",
+          "dependencies": 8,
+          "devDependencies": 4,
+          "count": 12,
+          "co2e": 1.2000000000000002
+        },
+        {
+          "file": "adev/src/content/tutorials/signals/common/package.json",
+          "dependencies": 9,
+          "devDependencies": 4,
+          "count": 13,
+          "co2e": 1.3
+        },
+        {
+          "file": "adev/src/content/tutorials/signal-forms/common/package.json",
+          "dependencies": 9,
+          "devDependencies": 4,
+          "count": 13,
+          "co2e": 1.3
+        },
+        {
+          "file": "adev/src/content/tutorials/playground/common/package.json",
+          "dependencies": 11,
+          "devDependencies": 4,
+          "count": 15,
+          "co2e": 1.5
+        },
+        {
+          "file": "adev/src/content/tutorials/learn-angular/common/package.json",
+          "dependencies": 9,
+          "devDependencies": 4,
+          "count": 13,
+          "co2e": 1.3
+        },
+        {
+          "file": "adev/src/content/tutorials/first-app/common/package.json",
+          "dependencies": 9,
+          "devDependencies": 5,
+          "count": 14,
+          "co2e": 1.4000000000000001
+        },
+        {
+          "file": "adev/src/content/tutorials/deferrable-views/common/package.json",
+          "dependencies": 9,
+          "devDependencies": 4,
+          "count": 13,
+          "co2e": 1.3
+        },
+        {
+          "file": "adev/src/content/examples/schematics-for-libraries/projects/my-lib/package.json",
+          "dependencies": 0,
+          "devDependencies": 2,
+          "count": 2,
+          "co2e": 0.2
+        }
+      ]
+    },
+    "totalCO2e": 88.79999999999997
+  },
+  {
+    "project": "cockroach",
+    "terraform": {
+      "files": 6,
+      "co2e": 0,
+      "resources": 0,
+      "details": []
+    },
+    "dependencies": {
+      "files": 10,
+      "co2e": 39.2,
+      "count": 392,
+      "details": [
+        {
+          "file": "pkg/ui/workspaces/eslint-plugin-crdb/package.json",
+          "dependencies": 0,
+          "devDependencies": 6,
+          "count": 6,
+          "co2e": 0.6000000000000001
+        },
+        {
+          "file": "pkg/ui/workspaces/e2e-tests/package.json",
+          "dependencies": 1,
+          "devDependencies": 12,
+          "count": 13,
+          "co2e": 1.3
+        },
+        {
+          "file": "pkg/ui/workspaces/crdb-api-client/package.json",
+          "dependencies": 1,
+          "devDependencies": 2,
+          "count": 3,
+          "co2e": 0.30000000000000004
+        },
+        {
+          "file": "pkg/ui/workspaces/db-console/package.json",
+          "dependencies": 71,
+          "devDependencies": 127,
+          "count": 198,
+          "co2e": 19.8
+        },
+        {
+          "file": "pkg/ui/workspaces/cluster-ui/package.json",
+          "dependencies": 47,
+          "devDependencies": 100,
+          "count": 147,
+          "co2e": 14.700000000000001
+        },
+        {
+          "file": "pkg/acceptance/testdata/node/package.json",
+          "dependencies": 4,
+          "devDependencies": 1,
+          "count": 5,
+          "co2e": 0.5
+        },
+        {
+          "file": "pkg/ui/workspaces/db-console/src/js/package.json",
+          "dependencies": 0,
+          "devDependencies": 10,
+          "count": 10,
+          "co2e": 1
+        },
+        {
+          "file": "pkg/ui/workspaces/db-console/ccl/src/js/package.json",
+          "dependencies": 0,
+          "devDependencies": 10,
+          "count": 10,
+          "co2e": 1
+        }
+      ]
+    },
+    "totalCO2e": 39.2
+  },
+  {
+    "project": "deploy-sourcegraph-aws",
+    "terraform": {
+      "files": 4,
+      "co2e": 1,
+      "resources": 1,
+      "details": [
+        {
+          "file": "main.tf",
+          "resources": [
+            {
+              "instanceType": "t2.large",
+              "provider": "aws"
+            }
+          ],
+          "co2e": 1
+        }
+      ]
+    },
+    "dependencies": {
+      "files": 0,
+      "co2e": 0,
+      "count": 0,
+      "details": []
+    },
+    "totalCO2e": 1
+  },
+  {
+    "project": "elasticsearch",
+    "terraform": {
+      "files": 0,
+      "co2e": 0,
+      "resources": 0,
+      "details": []
+    },
+    "dependencies": {
+      "files": 0,
+      "co2e": 0,
+      "count": 0,
+      "details": []
+    },
+    "totalCO2e": 0
+  },
+  {
+    "project": "govuk-aws",
+    "terraform": {
+      "files": 97,
+      "co2e": 4,
+      "resources": 4,
+      "details": [
+        {
+          "file": "terraform/projects/app-transition-postgresql/main.tf",
+          "resources": [
+            {
+              "instanceType": "db.t3.micro",
+              "provider": "aws (module-rds)"
+            },
+            {
+              "instanceType": "db.t3.micro",
+              "provider": "aws (module-rds)"
+            },
+            {
+              "instanceType": "db.t3.micro",
+              "provider": "aws (module-rds)"
+            },
+            {
+              "instanceType": "db.t3.micro",
+              "provider": "aws (module-rds)"
+            }
+          ],
+          "co2e": 4
+        }
+      ]
+    },
+    "dependencies": {
+      "files": 0,
+      "co2e": 0,
+      "count": 0,
+      "details": []
+    },
+    "totalCO2e": 4
+  },
+  {
+    "project": "govuk-infrastructure",
+    "terraform": {
+      "files": 303,
+      "co2e": 2,
+      "resources": 2,
+      "details": [
+        {
+          "file": "terraform/deployments/cluster-infrastructure/main.tf",
+          "resources": [
+            {
+              "instanceType": "t3.medium",
+              "provider": "aws (module-eks)",
+              "count": 3
+            }
+          ],
+          "co2e": 1
+        },
+        {
+          "file": "terraform/deployments/cluster-infrastructure/grafana.tf",
+          "resources": [
+            {
+              "instanceType": "db.t3.micro",
+              "provider": "aws (module-rds)"
+            }
+          ],
+          "co2e": 1
+        }
+      ]
+    },
+    "dependencies": {
+      "files": 0,
+      "co2e": 0,
+      "count": 0,
+      "details": []
+    },
+    "totalCO2e": 2
+  },
+  {
+    "project": "hashicorp-learn-aws",
+    "terraform": {
+      "files": 0,
+      "co2e": 0,
+      "resources": 0,
+      "details": []
+    },
+    "dependencies": {
+      "files": 0,
+      "co2e": 0,
+      "count": 0,
+      "details": []
+    },
+    "totalCO2e": 0
+  },
+  {
+    "project": "kubernetes",
+    "terraform": {
+      "files": 0,
+      "co2e": 0,
+      "resources": 0,
+      "details": []
+    },
+    "dependencies": {
+      "files": 0,
+      "co2e": 0,
+      "count": 0,
+      "details": []
+    },
+    "totalCO2e": 0
+  },
+  {
+    "project": "localstack",
+    "terraform": {
+      "files": 13,
+      "co2e": 0,
+      "resources": 0,
+      "details": []
+    },
+    "dependencies": {
+      "files": 1,
+      "co2e": 0.2,
+      "count": 2,
+      "details": [
+        {
+          "file": "tests/aws/serverless/package.json",
+          "dependencies": 0,
+          "devDependencies": 2,
+          "count": 2,
+          "co2e": 0.2
+        }
+      ]
+    },
+    "totalCO2e": 0.2
+  },
+  {
+    "project": "react",
+    "terraform": {
+      "files": 0,
+      "co2e": 0,
+      "resources": 0,
+      "details": []
+    },
+    "dependencies": {
+      "files": 108,
+      "co2e": 77.1,
+      "count": 771,
+      "details": [
+        {
+          "file": "package.json",
+          "dependencies": 0,
+          "devDependencies": 113,
+          "count": 113,
+          "co2e": 11.3
+        },
+        {
+          "file": "compiler/package.json",
+          "dependencies": 2,
+          "devDependencies": 17,
+          "count": 19,
+          "co2e": 1.9000000000000001
+        },
+        {
+          "file": "scripts/release/package.json",
+          "dependencies": 15,
+          "devDependencies": 0,
+          "count": 15,
+          "co2e": 1.5
+        },
+        {
+          "file": "scripts/devtools/package.json",
+          "dependencies": 7,
+          "devDependencies": 0,
+          "count": 7,
+          "co2e": 0.7000000000000001
+        },
+        {
+          "file": "scripts/bench/package.json",
+          "dependencies": 12,
+          "devDependencies": 0,
+          "count": 12,
+          "co2e": 1.2000000000000002
+        },
+        {
+          "file": "fixtures/view-transition/package.json",
+          "dependencies": 6,
+          "devDependencies": 4,
+          "count": 10,
+          "co2e": 1
+        },
+        {
+          "file": "fixtures/stacks/package.json",
+          "dependencies": 1,
+          "devDependencies": 2,
+          "count": 3,
+          "co2e": 0.30000000000000004
+        },
+        {
+          "file": "fixtures/ssr2/package.json",
+          "dependencies": 15,
+          "devDependencies": 2,
+          "count": 17,
+          "co2e": 1.7000000000000002
+        },
+        {
+          "file": "fixtures/ssr/package.json",
+          "dependencies": 6,
+          "devDependencies": 3,
+          "count": 9,
+          "co2e": 0.9
+        },
+        {
+          "file": "fixtures/owner-stacks/package.json",
+          "dependencies": 4,
+          "devDependencies": 0,
+          "count": 4,
+          "co2e": 0.4
+        },
+        {
+          "file": "fixtures/nesting/package.json",
+          "dependencies": 2,
+          "devDependencies": 2,
+          "count": 4,
+          "co2e": 0.4
+        },
+        {
+          "file": "fixtures/legacy-jsx-runtimes/package.json",
+          "dependencies": 3,
+          "devDependencies": 0,
+          "count": 3,
+          "co2e": 0.30000000000000004
+        },
+        {
+          "file": "fixtures/flight-parcel/package.json",
+          "dependencies": 13,
+          "devDependencies": 0,
+          "count": 13,
+          "co2e": 1.3
+        },
+        {
+          "file": "fixtures/flight-esm/package.json",
+          "dependencies": 11,
+          "devDependencies": 0,
+          "count": 11,
+          "co2e": 1.1
+        },
+        {
+          "file": "fixtures/flight/package.json",
+          "dependencies": 58,
+          "devDependencies": 1,
+          "count": 59,
+          "co2e": 5.9
+        },
+        {
+          "file": "fixtures/fizz/package.json",
+          "dependencies": 15,
+          "devDependencies": 2,
+          "count": 17,
+          "co2e": 1.7000000000000002
+        },
+        {
+          "file": "fixtures/fiber-debugger/package.json",
+          "dependencies": 4,
+          "devDependencies": 1,
+          "count": 5,
+          "co2e": 0.5
+        },
+        {
+          "file": "fixtures/expiration/package.json",
+          "dependencies": 3,
+          "devDependencies": 0,
+          "count": 3,
+          "co2e": 0.30000000000000004
+        },
+        {
+          "file": "fixtures/eslint-v9/package.json",
+          "dependencies": 3,
+          "devDependencies": 1,
+          "count": 4,
+          "co2e": 0.4
+        },
+        {
+          "file": "fixtures/eslint-v8/package.json",
+          "dependencies": 2,
+          "devDependencies": 0,
+          "count": 2,
+          "co2e": 0.2
+        },
+        {
+          "file": "fixtures/eslint-v7/package.json",
+          "dependencies": 2,
+          "devDependencies": 0,
+          "count": 2,
+          "co2e": 0.2
+        },
+        {
+          "file": "fixtures/eslint-v6/package.json",
+          "dependencies": 2,
+          "devDependencies": 0,
+          "count": 2,
+          "co2e": 0.2
+        },
+        {
+          "file": "fixtures/dom/package.json",
+          "dependencies": 11,
+          "devDependencies": 1,
+          "count": 12,
+          "co2e": 1.2000000000000002
+        },
+        {
+          "file": "fixtures/attribute-behavior/package.json",
+          "dependencies": 6,
+          "devDependencies": 0,
+          "count": 6,
+          "co2e": 0.6000000000000001
+        },
+        {
+          "file": "fixtures/art/package.json",
+          "dependencies": 0,
+          "devDependencies": 9,
+          "count": 9,
+          "co2e": 0.9
+        },
+        {
+          "file": "packages/use-subscription/package.json",
+          "dependencies": 1,
+          "devDependencies": 1,
+          "count": 2,
+          "co2e": 0.2
+        },
+        {
+          "file": "packages/use-sync-external-store/package.json",
+          "dependencies": 0,
+          "devDependencies": 2,
+          "count": 2,
+          "co2e": 0.2
+        },
+        {
+          "file": "packages/react-test-renderer/package.json",
+          "dependencies": 2,
+          "devDependencies": 0,
+          "count": 2,
+          "co2e": 0.2
+        },
+        {
+          "file": "packages/react-server-dom-webpack/package.json",
+          "dependencies": 3,
+          "devDependencies": 0,
+          "count": 3,
+          "co2e": 0.30000000000000004
+        },
+        {
+          "file": "packages/react-server-dom-unbundled/package.json",
+          "dependencies": 2,
+          "devDependencies": 0,
+          "count": 2,
+          "co2e": 0.2
+        },
+        {
+          "file": "packages/react-server-dom-fb/package.json",
+          "dependencies": 1,
+          "devDependencies": 0,
+          "count": 1,
+          "co2e": 0.1
+        },
+        {
+          "file": "packages/react-server-dom-turbopack/package.json",
+          "dependencies": 2,
+          "devDependencies": 0,
+          "count": 2,
+          "co2e": 0.2
+        },
+        {
+          "file": "packages/react-server-dom-esm/package.json",
+          "dependencies": 2,
+          "devDependencies": 0,
+          "count": 2,
+          "co2e": 0.2
+        },
+        {
+          "file": "packages/react-refresh/package.json",
+          "dependencies": 0,
+          "devDependencies": 3,
+          "count": 3,
+          "co2e": 0.30000000000000004
+        },
+        {
+          "file": "packages/react-reconciler/package.json",
+          "dependencies": 1,
+          "devDependencies": 0,
+          "count": 1,
+          "co2e": 0.1
+        },
+        {
+          "file": "packages/react-noop-renderer/package.json",
+          "dependencies": 3,
+          "devDependencies": 0,
+          "count": 3,
+          "co2e": 0.30000000000000004
+        },
+        {
+          "file": "packages/react-native-renderer/package.json",
+          "dependencies": 1,
+          "devDependencies": 0,
+          "count": 1,
+          "co2e": 0.1
+        },
+        {
+          "file": "packages/react-devtools-timeline/package.json",
+          "dependencies": 7,
+          "devDependencies": 12,
+          "count": 19,
+          "co2e": 1.9000000000000001
+        },
+        {
+          "file": "packages/react-dom/package.json",
+          "dependencies": 1,
+          "devDependencies": 0,
+          "count": 1,
+          "co2e": 0.1
+        },
+        {
+          "file": "packages/react-devtools-shell/package.json",
+          "dependencies": 3,
+          "devDependencies": 17,
+          "count": 20,
+          "co2e": 2
+        },
+        {
+          "file": "packages/react-devtools-shared/package.json",
+          "dependencies": 15,
+          "devDependencies": 2,
+          "count": 17,
+          "co2e": 1.7000000000000002
+        },
+        {
+          "file": "packages/react-devtools-inline/package.json",
+          "dependencies": 2,
+          "devDependencies": 22,
+          "count": 24,
+          "co2e": 2.4000000000000004
+        },
+        {
+          "file": "packages/react-devtools-fusebox/package.json",
+          "dependencies": 0,
+          "devDependencies": 8,
+          "count": 8,
+          "co2e": 0.8
+        },
+        {
+          "file": "packages/react-devtools-core/package.json",
+          "dependencies": 2,
+          "devDependencies": 5,
+          "count": 7,
+          "co2e": 0.7000000000000001
+        },
+        {
+          "file": "packages/react-devtools-extensions/package.json",
+          "dependencies": 1,
+          "devDependencies": 47,
+          "count": 48,
+          "co2e": 4.800000000000001
+        },
+        {
+          "file": "packages/react-devtools/package.json",
+          "dependencies": 6,
+          "devDependencies": 0,
+          "count": 6,
+          "co2e": 0.6000000000000001
+        },
+        {
+          "file": "packages/react-debug-tools/package.json",
+          "dependencies": 1,
+          "devDependencies": 0,
+          "count": 1,
+          "co2e": 0.1
+        },
+        {
+          "file": "packages/react-art/package.json",
+          "dependencies": 3,
+          "devDependencies": 0,
+          "count": 3,
+          "co2e": 0.30000000000000004
+        },
+        {
+          "file": "packages/eslint-plugin-react-hooks/package.json",
+          "dependencies": 5,
+          "devDependencies": 18,
+          "count": 23,
+          "co2e": 2.3000000000000003
+        },
+        {
+          "file": "fixtures/legacy-jsx-runtimes/react-17/package.json",
+          "dependencies": 3,
+          "devDependencies": 0,
+          "count": 3,
+          "co2e": 0.30000000000000004
+        },
+        {
+          "file": "fixtures/legacy-jsx-runtimes/react-16/package.json",
+          "dependencies": 3,
+          "devDependencies": 0,
+          "count": 3,
+          "co2e": 0.30000000000000004
+        },
+        {
+          "file": "fixtures/legacy-jsx-runtimes/react-15/package.json",
+          "dependencies": 2,
+          "devDependencies": 0,
+          "count": 2,
+          "co2e": 0.2
+        },
+        {
+          "file": "fixtures/legacy-jsx-runtimes/react-14/package.json",
+          "dependencies": 2,
+          "devDependencies": 0,
+          "count": 2,
+          "co2e": 0.2
+        },
+        {
+          "file": "fixtures/concurrent/time-slicing/package.json",
+          "dependencies": 6,
+          "devDependencies": 0,
+          "count": 6,
+          "co2e": 0.6000000000000001
+        },
+        {
+          "file": "compiler/packages/snap/package.json",
+          "dependencies": 20,
+          "devDependencies": 12,
+          "count": 32,
+          "co2e": 3.2
+        },
+        {
+          "file": "compiler/packages/react-mcp-server/package.json",
+          "dependencies": 12,
+          "devDependencies": 4,
+          "count": 16,
+          "co2e": 1.6
+        },
+        {
+          "file": "compiler/packages/react-forgive/package.json",
+          "dependencies": 0,
+          "devDependencies": 10,
+          "count": 10,
+          "co2e": 1
+        },
+        {
+          "file": "compiler/packages/react-compiler-healthcheck/package.json",
+          "dependencies": 8,
+          "devDependencies": 0,
+          "count": 8,
+          "co2e": 0.8
+        },
+        {
+          "file": "compiler/packages/make-read-only-util/package.json",
+          "dependencies": 2,
+          "devDependencies": 6,
+          "count": 8,
+          "co2e": 0.8
+        },
+        {
+          "file": "compiler/packages/eslint-plugin-react-compiler/package.json",
+          "dependencies": 5,
+          "devDependencies": 11,
+          "count": 16,
+          "co2e": 1.6
+        },
+        {
+          "file": "compiler/packages/babel-plugin-react-compiler/package.json",
+          "dependencies": 1,
+          "devDependencies": 31,
+          "count": 32,
+          "co2e": 3.2
+        },
+        {
+          "file": "compiler/apps/playground/package.json",
+          "dependencies": 27,
+          "devDependencies": 12,
+          "count": 39,
+          "co2e": 3.9000000000000004
+        },
+        {
+          "file": "fixtures/packaging/webpack/prod/package.json",
+          "dependencies": 1,
+          "devDependencies": 0,
+          "count": 1,
+          "co2e": 0.1
+        },
+        {
+          "file": "fixtures/packaging/webpack-alias/prod/package.json",
+          "dependencies": 1,
+          "devDependencies": 0,
+          "count": 1,
+          "co2e": 0.1
+        },
+        {
+          "file": "fixtures/packaging/webpack/dev/package.json",
+          "dependencies": 1,
+          "devDependencies": 0,
+          "count": 1,
+          "co2e": 0.1
+        },
+        {
+          "file": "fixtures/packaging/webpack-alias/dev/package.json",
+          "dependencies": 1,
+          "devDependencies": 0,
+          "count": 1,
+          "co2e": 0.1
+        },
+        {
+          "file": "fixtures/packaging/systemjs-builder/prod/package.json",
+          "dependencies": 1,
+          "devDependencies": 0,
+          "count": 1,
+          "co2e": 0.1
+        },
+        {
+          "file": "fixtures/packaging/systemjs-builder/dev/package.json",
+          "dependencies": 1,
+          "devDependencies": 0,
+          "count": 1,
+          "co2e": 0.1
+        },
+        {
+          "file": "fixtures/packaging/rjs/prod/package.json",
+          "dependencies": 1,
+          "devDependencies": 0,
+          "count": 1,
+          "co2e": 0.1
+        },
+        {
+          "file": "fixtures/packaging/rjs/dev/package.json",
+          "dependencies": 1,
+          "devDependencies": 0,
+          "count": 1,
+          "co2e": 0.1
+        },
+        {
+          "file": "fixtures/packaging/brunch/prod/package.json",
+          "dependencies": 0,
+          "devDependencies": 2,
+          "count": 2,
+          "co2e": 0.2
+        },
+        {
+          "file": "fixtures/packaging/brunch/dev/package.json",
+          "dependencies": 0,
+          "devDependencies": 2,
+          "count": 2,
+          "co2e": 0.2
+        },
+        {
+          "file": "fixtures/packaging/browserify/prod/package.json",
+          "dependencies": 1,
+          "devDependencies": 1,
+          "count": 2,
+          "co2e": 0.2
+        },
+        {
+          "file": "fixtures/packaging/browserify/dev/package.json",
+          "dependencies": 1,
+          "devDependencies": 0,
+          "count": 1,
+          "co2e": 0.1
+        },
+        {
+          "file": "fixtures/nesting/src/modern/package.json",
+          "dependencies": 4,
+          "devDependencies": 0,
+          "count": 4,
+          "co2e": 0.4
+        },
+        {
+          "file": "fixtures/nesting/src/legacy/package.json",
+          "dependencies": 4,
+          "devDependencies": 0,
+          "count": 4,
+          "co2e": 0.4
+        },
+        {
+          "file": "compiler/packages/react-forgive/server/package.json",
+          "dependencies": 7,
+          "devDependencies": 0,
+          "count": 7,
+          "co2e": 0.7000000000000001
+        },
+        {
+          "file": "compiler/packages/react-forgive/client/package.json",
+          "dependencies": 1,
+          "devDependencies": 1,
+          "count": 2,
+          "co2e": 0.2
+        }
+      ]
+    },
+    "totalCO2e": 77.1
+  },
+  {
+    "project": "spark",
+    "terraform": {
+      "files": 0,
+      "co2e": 0,
+      "resources": 0,
+      "details": []
+    },
+    "dependencies": {
+      "files": 3,
+      "co2e": 0.7000000000000001,
+      "count": 7,
+      "details": [
+        {
+          "file": "ui-test/package.json",
+          "dependencies": 0,
+          "devDependencies": 3,
+          "count": 3,
+          "co2e": 0.30000000000000004
+        },
+        {
+          "file": "dev/package.json",
+          "dependencies": 0,
+          "devDependencies": 4,
+          "count": 4,
+          "co2e": 0.4
+        }
+      ]
+    },
+    "totalCO2e": 0.7000000000000001
+  },
+  {
+    "project": "tensorflow",
+    "terraform": {
+      "files": 0,
+      "co2e": 0,
+      "resources": 0,
+      "details": []
+    },
+    "dependencies": {
+      "files": 0,
+      "co2e": 0,
+      "count": 0,
+      "details": []
+    },
+    "totalCO2e": 0
+  },
+  {
+    "project": "terraform",
+    "terraform": {
+      "files": 1538,
+      "co2e": 1,
+      "resources": 1,
+      "details": [
+        {
+          "file": "internal/terraform/testdata/plan-var-list-err/main.tf",
+          "resources": [
+            {
+              "instanceType": "t2.micro",
+              "provider": "aws"
+            }
+          ],
+          "co2e": 1
+        }
+      ]
+    },
+    "dependencies": {
+      "files": 0,
+      "co2e": 0,
+      "count": 0,
+      "details": []
+    },
+    "totalCO2e": 1
+  },
+  {
+    "project": "terraform-aws-ec2-instance",
+    "terraform": {
+      "files": 16,
+      "co2e": 2,
+      "resources": 2,
+      "details": [
+        {
+          "file": "main.tf",
+          "resources": [
+            {
+              "instanceType": "t3.micro",
+              "provider": "aws"
+            },
+            {
+              "instanceType": "t3.micro",
+              "provider": "aws"
+            }
+          ],
+          "co2e": 2
+        }
+      ]
+    },
+    "dependencies": {
+      "files": 0,
+      "co2e": 0,
+      "count": 0,
+      "details": []
+    },
+    "totalCO2e": 2
+  },
+  {
+    "project": "terraform-aws-eks",
+    "terraform": {
+      "files": 87,
+      "co2e": 10,
+      "resources": 10,
+      "details": [
+        {
+          "file": "node_groups.tf",
+          "resources": [
+            {
+              "instanceType": "t3.medium",
+              "provider": "aws (module-eks)",
+              "count": 3
+            }
+          ],
+          "co2e": 1
+        },
+        {
+          "file": "tests/self-managed-node-group/main.tf",
+          "resources": [
+            {
+              "instanceType": "t3.medium",
+              "provider": "aws (module-eks)",
+              "count": 3
+            }
+          ],
+          "co2e": 1
+        },
+        {
+          "file": "tests/eks-managed-node-group/main.tf",
+          "resources": [
+            {
+              "instanceType": "t3.medium",
+              "provider": "aws (module-eks)",
+              "count": 3
+            },
+            {
+              "instanceType": "t3.medium",
+              "provider": "aws (module-eks)",
+              "count": 3
+            },
+            {
+              "instanceType": "t3.medium",
+              "provider": "aws (module-eks)",
+              "count": 3
+            }
+          ],
+          "co2e": 3
+        },
+        {
+          "file": "examples/self-managed-node-group/eks-bottlerocket.tf",
+          "resources": [
+            {
+              "instanceType": "t3.medium",
+              "provider": "aws (module-eks)",
+              "count": 3
+            }
+          ],
+          "co2e": 1
+        },
+        {
+          "file": "examples/self-managed-node-group/eks-al2023.tf",
+          "resources": [
+            {
+              "instanceType": "t3.medium",
+              "provider": "aws (module-eks)",
+              "count": 3
+            }
+          ],
+          "co2e": 1
+        },
+        {
+          "file": "examples/eks-hybrid-nodes/remote.tf",
+          "resources": [
+            {
+              "instanceType": "m5.large",
+              "provider": "aws"
+            }
+          ],
+          "co2e": 1
+        },
+        {
+          "file": "examples/eks-managed-node-group/eks-bottlerocket.tf",
+          "resources": [
+            {
+              "instanceType": "t3.medium",
+              "provider": "aws (module-eks)",
+              "count": 3
+            }
+          ],
+          "co2e": 1
+        },
+        {
+          "file": "examples/eks-managed-node-group/eks-al2023.tf",
+          "resources": [
+            {
+              "instanceType": "t3.medium",
+              "provider": "aws (module-eks)",
+              "count": 3
+            }
+          ],
+          "co2e": 1
+        }
+      ]
+    },
+    "dependencies": {
+      "files": 0,
+      "co2e": 0,
+      "count": 0,
+      "details": []
+    },
+    "totalCO2e": 10
+  },
+  {
+    "project": "terraform-aws-vpc",
+    "terraform": {
+      "files": 77,
+      "co2e": 0,
+      "resources": 0,
+      "details": []
+    },
+    "dependencies": {
+      "files": 0,
+      "co2e": 0,
+      "count": 0,
+      "details": []
+    },
+    "totalCO2e": 0
+  },
+  {
+    "project": "terraform-azurerm-compute",
+    "terraform": {
+      "files": 20,
+      "co2e": 0,
+      "resources": 0,
+      "details": []
+    },
+    "dependencies": {
+      "files": 0,
+      "co2e": 0,
+      "count": 0,
+      "details": []
+    },
+    "totalCO2e": 0
+  },
+  {
+    "project": "terraform-google-vm",
+    "terraform": {
+      "files": 198,
+      "co2e": 3,
+      "resources": 3,
+      "details": [
+        {
+          "file": "examples/compute_instance/tags/main.tf",
+          "resources": [
+            {
+              "instanceType": "e2-medium",
+              "provider": "gcp"
+            }
+          ],
+          "co2e": 1
+        },
+        {
+          "file": "examples/compute_instance/next_hop/main.tf",
+          "resources": [
+            {
+              "instanceType": "e2-medium",
+              "provider": "gcp"
+            }
+          ],
+          "co2e": 1
+        },
+        {
+          "file": "examples/compute_instance/multiple_interfaces/main.tf",
+          "resources": [
+            {
+              "instanceType": "e2-medium",
+              "provider": "gcp"
+            }
+          ],
+          "co2e": 1
+        }
+      ]
+    },
+    "dependencies": {
+      "files": 0,
+      "co2e": 0,
+      "count": 0,
+      "details": []
+    },
+    "totalCO2e": 3
+  },
+  {
+    "project": "vscode",
+    "terraform": {
+      "files": 0,
+      "co2e": 0,
+      "resources": 0,
+      "details": []
+    },
+    "dependencies": {
+      "files": 119,
+      "co2e": 49.70000000000001,
+      "count": 497,
+      "details": [
+        {
+          "file": "package.json",
+          "dependencies": 48,
+          "devDependencies": 101,
+          "count": 149,
+          "co2e": 14.9
+        },
+        {
+          "file": "remote/package.json",
+          "dependencies": 38,
+          "devDependencies": 0,
+          "count": 38,
+          "co2e": 3.8000000000000003
+        },
+        {
+          "file": "build/package.json",
+          "dependencies": 0,
+          "devDependencies": 61,
+          "count": 61,
+          "co2e": 6.1000000000000005
+        },
+        {
+          "file": "extensions/package.json",
+          "dependencies": 1,
+          "devDependencies": 3,
+          "count": 4,
+          "co2e": 0.4
+        },
+        {
+          "file": "test/smoke/package.json",
+          "dependencies": 2,
+          "devDependencies": 4,
+          "count": 6,
+          "co2e": 0.6000000000000001
+        },
+        {
+          "file": "test/sanity/package.json",
+          "dependencies": 5,
+          "devDependencies": 4,
+          "count": 9,
+          "co2e": 0.9
+        },
+        {
+          "file": "test/mcp/package.json",
+          "dependencies": 4,
+          "devDependencies": 4,
+          "count": 8,
+          "co2e": 0.8
+        },
+        {
+          "file": "test/monaco/package.json",
+          "dependencies": 0,
+          "devDependencies": 4,
+          "count": 4,
+          "co2e": 0.4
+        },
+        {
+          "file": "test/automation/package.json",
+          "dependencies": 5,
+          "devDependencies": 6,
+          "count": 11,
+          "co2e": 1.1
+        },
+        {
+          "file": "remote/web/package.json",
+          "dependencies": 20,
+          "devDependencies": 0,
+          "count": 20,
+          "co2e": 2
+        },
+        {
+          "file": "build/vite/package.json",
+          "dependencies": 0,
+          "devDependencies": 2,
+          "count": 2,
+          "co2e": 0.2
+        },
+        {
+          "file": "extensions/vscode-test-resolver/package.json",
+          "dependencies": 0,
+          "devDependencies": 1,
+          "count": 1,
+          "co2e": 0.1
+        },
+        {
+          "file": "extensions/vscode-colorize-tests/package.json",
+          "dependencies": 1,
+          "devDependencies": 1,
+          "count": 2,
+          "co2e": 0.2
+        },
+        {
+          "file": "extensions/vscode-colorize-perf-tests/package.json",
+          "dependencies": 1,
+          "devDependencies": 1,
+          "count": 2,
+          "co2e": 0.2
+        },
+        {
+          "file": "extensions/vscode-api-tests/package.json",
+          "dependencies": 0,
+          "devDependencies": 5,
+          "count": 5,
+          "co2e": 0.5
+        },
+        {
+          "file": "extensions/typescript-language-features/package.json",
+          "dependencies": 9,
+          "devDependencies": 2,
+          "count": 11,
+          "co2e": 1.1
+        },
+        {
+          "file": "extensions/tunnel-forwarding/package.json",
+          "dependencies": 0,
+          "devDependencies": 1,
+          "count": 1,
+          "co2e": 0.1
+        },
+        {
+          "file": "extensions/terminal-suggest/package.json",
+          "dependencies": 0,
+          "devDependencies": 1,
+          "count": 1,
+          "co2e": 0.1
+        },
+        {
+          "file": "extensions/simple-browser/package.json",
+          "dependencies": 1,
+          "devDependencies": 3,
+          "count": 4,
+          "co2e": 0.4
+        },
+        {
+          "file": "extensions/search-result/package.json",
+          "dependencies": 0,
+          "devDependencies": 1,
+          "count": 1,
+          "co2e": 0.1
+        },
+        {
+          "file": "extensions/references-view/package.json",
+          "dependencies": 0,
+          "devDependencies": 1,
+          "count": 1,
+          "co2e": 0.1
+        },
+        {
+          "file": "extensions/php-language-features/package.json",
+          "dependencies": 1,
+          "devDependencies": 2,
+          "count": 3,
+          "co2e": 0.30000000000000004
+        },
+        {
+          "file": "extensions/npm/package.json",
+          "dependencies": 8,
+          "devDependencies": 3,
+          "count": 11,
+          "co2e": 1.1
+        },
+        {
+          "file": "extensions/notebook-renderers/package.json",
+          "dependencies": 0,
+          "devDependencies": 4,
+          "count": 4,
+          "co2e": 0.4
+        },
+        {
+          "file": "extensions/microsoft-authentication/package.json",
+          "dependencies": 6,
+          "devDependencies": 5,
+          "count": 11,
+          "co2e": 1.1
+        },
+        {
+          "file": "extensions/mermaid-chat-features/package.json",
+          "dependencies": 2,
+          "devDependencies": 2,
+          "count": 4,
+          "co2e": 0.4
+        },
+        {
+          "file": "extensions/merge-conflict/package.json",
+          "dependencies": 1,
+          "devDependencies": 1,
+          "count": 2,
+          "co2e": 0.2
+        },
+        {
+          "file": "extensions/media-preview/package.json",
+          "dependencies": 2,
+          "devDependencies": 1,
+          "count": 3,
+          "co2e": 0.30000000000000004
+        },
+        {
+          "file": "extensions/markdown-math/package.json",
+          "dependencies": 1,
+          "devDependencies": 2,
+          "count": 3,
+          "co2e": 0.30000000000000004
+        },
+        {
+          "file": "extensions/markdown-language-features/package.json",
+          "dependencies": 12,
+          "devDependencies": 11,
+          "count": 23,
+          "co2e": 2.3000000000000003
+        },
+        {
+          "file": "extensions/json-language-features/package.json",
+          "dependencies": 3,
+          "devDependencies": 1,
+          "count": 4,
+          "co2e": 0.4
+        },
+        {
+          "file": "extensions/jake/package.json",
+          "dependencies": 0,
+          "devDependencies": 1,
+          "count": 1,
+          "co2e": 0.1
+        },
+        {
+          "file": "extensions/ipynb/package.json",
+          "dependencies": 2,
+          "devDependencies": 3,
+          "count": 5,
+          "co2e": 0.5
+        },
+        {
+          "file": "extensions/html-language-features/package.json",
+          "dependencies": 3,
+          "devDependencies": 1,
+          "count": 4,
+          "co2e": 0.4
+        },
+        {
+          "file": "extensions/gulp/package.json",
+          "dependencies": 0,
+          "devDependencies": 1,
+          "count": 1,
+          "co2e": 0.1
+        },
+        {
+          "file": "extensions/grunt/package.json",
+          "dependencies": 0,
+          "devDependencies": 1,
+          "count": 1,
+          "co2e": 0.1
+        },
+        {
+          "file": "extensions/github-authentication/package.json",
+          "dependencies": 3,
+          "devDependencies": 3,
+          "count": 6,
+          "co2e": 0.6000000000000001
+        },
+        {
+          "file": "extensions/github/package.json",
+          "dependencies": 5,
+          "devDependencies": 1,
+          "count": 6,
+          "co2e": 0.6000000000000001
+        },
+        {
+          "file": "extensions/git-base/package.json",
+          "dependencies": 0,
+          "devDependencies": 1,
+          "count": 1,
+          "co2e": 0.1
+        },
+        {
+          "file": "extensions/git/package.json",
+          "dependencies": 7,
+          "devDependencies": 5,
+          "count": 12,
+          "co2e": 1.2000000000000002
+        },
+        {
+          "file": "extensions/extension-editing/package.json",
+          "dependencies": 3,
+          "devDependencies": 2,
+          "count": 5,
+          "co2e": 0.5
+        },
+        {
+          "file": "extensions/emmet/package.json",
+          "dependencies": 6,
+          "devDependencies": 1,
+          "count": 7,
+          "co2e": 0.7000000000000001
+        },
+        {
+          "file": "extensions/debug-server-ready/package.json",
+          "dependencies": 0,
+          "devDependencies": 1,
+          "count": 1,
+          "co2e": 0.1
+        },
+        {
+          "file": "extensions/debug-auto-launch/package.json",
+          "dependencies": 0,
+          "devDependencies": 1,
+          "count": 1,
+          "co2e": 0.1
+        },
+        {
+          "file": "extensions/css-language-features/package.json",
+          "dependencies": 2,
+          "devDependencies": 1,
+          "count": 3,
+          "co2e": 0.30000000000000004
+        },
+        {
+          "file": "extensions/configuration-editing/package.json",
+          "dependencies": 3,
+          "devDependencies": 1,
+          "count": 4,
+          "co2e": 0.4
+        },
+        {
+          "file": "test/integration/browser/package.json",
+          "dependencies": 0,
+          "devDependencies": 7,
+          "count": 7,
+          "co2e": 0.7000000000000001
+        },
+        {
+          "file": "build/npm/gyp/package.json",
+          "dependencies": 0,
+          "devDependencies": 1,
+          "count": 1,
+          "co2e": 0.1
+        },
+        {
+          "file": "extensions/json-language-features/server/package.json",
+          "dependencies": 6,
+          "devDependencies": 2,
+          "count": 8,
+          "co2e": 0.8
+        },
+        {
+          "file": "extensions/html-language-features/server/package.json",
+          "dependencies": 6,
+          "devDependencies": 2,
+          "count": 8,
+          "co2e": 0.8
+        },
+        {
+          "file": "extensions/css-language-features/server/package.json",
+          "dependencies": 4,
+          "devDependencies": 2,
+          "count": 6,
+          "co2e": 0.6000000000000001
+        }
+      ]
+    },
+    "totalCO2e": 49.70000000000001
+  },
+  {
+    "project": "vue",
+    "terraform": {
+      "files": 0,
+      "co2e": 0,
+      "resources": 0,
+      "details": []
+    },
+    "dependencies": {
+      "files": 6,
+      "co2e": 7.8999999999999995,
+      "count": 79,
+      "details": [
+        {
+          "file": "package.json",
+          "dependencies": 2,
+          "devDependencies": 41,
+          "count": 43,
+          "co2e": 4.3
+        },
+        {
+          "file": "packages/template-compiler/package.json",
+          "dependencies": 2,
+          "devDependencies": 1,
+          "count": 3,
+          "co2e": 0.30000000000000004
+        },
+        {
+          "file": "packages/server-renderer/package.json",
+          "dependencies": 8,
+          "devDependencies": 5,
+          "count": 13,
+          "co2e": 1.3
+        },
+        {
+          "file": "packages/compiler-sfc/package.json",
+          "dependencies": 3,
+          "devDependencies": 17,
+          "count": 20,
+          "co2e": 2
+        }
+      ]
+    },
+    "totalCO2e": 7.8999999999999995
+  }
+]

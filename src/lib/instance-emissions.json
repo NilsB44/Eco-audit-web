@@ -1,0 +1,92 @@
+[
+  {
+    "type": "p3.16xlarge",
+    "vCPU": 64,
+    "memory": "488 GiB",
+    "description": "High-performance GPU instance for deep learning.",
+    "co2e_per_hour_kg": 2.50,
+    "co2e_per_month_kg": 1825.0,
+    "co2e_per_year_kg": 21900.0
+  },
+  {
+    "type": "g4dn.12xlarge",
+    "vCPU": 48,
+    "memory": "192 GiB",
+    "description": "GPU instance for machine learning inference and graphics.",
+    "co2e_per_hour_kg": 1.20,
+    "co2e_per_month_kg": 876.0,
+    "co2e_per_year_kg": 10512.0
+  },
+  {
+    "type": "m5.24xlarge",
+    "vCPU": 96,
+    "memory": "384 GiB",
+    "description": "General purpose compute heavy.",
+    "co2e_per_hour_kg": 0.96,
+    "co2e_per_month_kg": 700.8,
+    "co2e_per_year_kg": 8409.6
+  },
+  {
+    "type": "c5.18xlarge",
+    "vCPU": 72,
+    "memory": "144 GiB",
+    "description": "Compute optimized for high-performance computing.",
+    "co2e_per_hour_kg": 0.72,
+    "co2e_per_month_kg": 525.6,
+    "co2e_per_year_kg": 6307.2
+  },
+  {
+    "type": "r5.12xlarge",
+    "vCPU": 48,
+    "memory": "384 GiB",
+    "description": "Memory optimized for in-memory databases.",
+    "co2e_per_hour_kg": 0.60,
+    "co2e_per_month_kg": 438.0,
+    "co2e_per_year_kg": 5256.0
+  },
+  {
+    "type": "m5.xlarge",
+    "vCPU": 4,
+    "memory": "16 GiB",
+    "description": "General purpose, balanced resources.",
+    "co2e_per_hour_kg": 0.08,
+    "co2e_per_month_kg": 58.4,
+    "co2e_per_year_kg": 700.8
+  },
+  {
+    "type": "c5.xlarge",
+    "vCPU": 4,
+    "memory": "8 GiB",
+    "description": "Compute optimized.",
+    "co2e_per_hour_kg": 0.072,
+    "co2e_per_month_kg": 52.56,
+    "co2e_per_year_kg": 630.72
+  },
+  {
+    "type": "t3.medium",
+    "vCPU": 2,
+    "memory": "4 GiB",
+    "description": "Burstable performance, general purpose.",
+    "co2e_per_hour_kg": 0.012,
+    "co2e_per_month_kg": 8.76,
+    "co2e_per_year_kg": 105.12
+  },
+  {
+    "type": "t2.micro",
+    "vCPU": 1,
+    "memory": "1 GiB",
+    "description": "Burstable performance, low cost (Free Tier eligible).",
+    "co2e_per_hour_kg": 0.002,
+    "co2e_per_month_kg": 1.46,
+    "co2e_per_year_kg": 17.52
+  },
+  {
+    "type": "t2.nano",
+    "vCPU": 1,
+    "memory": "0.5 GiB",
+    "description": "Lowest cost burstable instance.",
+    "co2e_per_hour_kg": 0.001,
+    "co2e_per_month_kg": 0.73,
+    "co2e_per_year_kg": 8.76
+  }
+]
